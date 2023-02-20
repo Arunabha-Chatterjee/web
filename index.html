@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <head>
     <title>admit</title>
-<style>
-    .center {
-  margin-left: auto; 
-  margin-right: auto;
-}
-#tblContent {
-  width: 100%;
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-#tblContent td,
-#tblContent th {
-  border: 1px solid black;
-}
-</style>
+    <style>
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #tblContent {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        #tblContent td,
+        #tblContent th {
+            border: 1px solid black;
+        }
+
+        /* Media queries for responsive design */
+        @media only screen and (max-width: 768px) {
+            #tblContent td,
+            #tblContent th {
+                font-size: 14px;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            #tblContent td,
+            #tblContent th {
+                font-size: 12px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <table style="width: 100%; border: 4px solid black;" class="center">
+    <table style="width: 80%; border: 4px solid black;" class="center">
         <tr>
             <td>
                 <table style="border: 2px solid black; width: 100%;">

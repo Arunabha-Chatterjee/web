@@ -1,38 +1,25 @@
 <!DOCTYPE html>
 <head>
     <title>admit</title>
-    <style>
-        .center {
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        #tblContent {
-            width: 100%;
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-
-        #tblContent td,
-        #tblContent th {
-            border: 1px solid black;
-        }
-
-        /* Media queries for responsive design */
-        @media only screen and (max-width: 768px) {
-            #tblContent td,
-            #tblContent th {
-                font-size: 14px;
-            }
-        }
-
-        @media only screen and (max-width: 480px) {
-            #tblContent td,
-            #tblContent th {
-                font-size: 12px;
-            }
-        }
-    </style>
+<style>
+    .text
+    {
+        font-family: monospace;
+        font-size: 15px;
+    }
+    .center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+#tblContent {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#tblContent td, #tblContent th {
+  border: 2px solid black;
+}
+</style>
 </head>
 <body>
     <table style="width: 80%; border: 4px solid black;" class="center">
@@ -76,52 +63,56 @@
                 <table style="border: 2px solid black; width: 100%; border-collapse: collapse;">
                     <tr>
                         <td>
-                           Roll no :
-                        <br><b>Roll no :</b>
-                        <br>(to be used as user id)
-                        <br>(to be used as user id)
+                            &ensp;Roll no :
+                        <br><b>&ensp;Roll no :</b>
+                        <br>&ensp;(to be used as user id)
+                        <br>&ensp;(to be used as user id)
                         </td>
-                        <td style="font-size: 25px;">
+                        <td style="font-size: 22px;" class="text">
                             <b>7208711811</b>
                         </td>
                         
+                        <td colspan="2">
+                        </td>
                         <td>
-                        <b>Ticket No:</b>
+                            Ticket No
                            <br> <b>Ticket No:</b>
                         </td>
-                        <td style="font-size: 25px;">
+                        <td style="font-size: 22px;" class="text">
                             <b>7143682</b>
                         </td>
                     </tr>
 
                     <tr>
-                    <td><b>Password for examination:</b>
-                    <br>Password for examination:</td>    
-                    <td style="font-size: 25px;">
+                    <td><b>&ensp;Password for examination:</b>
+                    <br>&ensp;Password for examination:</td>    
+                    <td style="font-size: 22px;" class="text" class="text">
                         <b>17081992</b>
+                    </td>
+                    <td colspan="2">
                     </td>
                     <td>
                         Opted for scribe
                         <br><b>Opted for scribe:</b>
                         <br>Only for VH/CP
-                        <br><b>Only for VH/CP</b>
+                        <br><b>Only for VH/CP</b> 
                     </td>
-        </tr>
+                 </tr>
+
         <tr>
-                <table style="border-collapse: collapse; width: 100%;">
-                    <tr>
+            
                         <td style="border: 2px solid black; border-right-color: white;">
                             Exam Date
                             <br><b>Exam Date:</b>
                         </td>
-                        <td style="border: 2px solid black; font-size: 25px;"><b>28/08/2016</b>
+                        <td style="border: 2px solid black; font-size: 22px; " class="text"><b>28/08/2016</b>
                         </td>
 
                         <td style="border: 2px solid black; border-right-color: white;">
                             Reporting Time
                             <br><b>Reporting Time:</b>
                         </td>
-                        <td style="font-size: 25px; border: 2px solid black;">
+                        <td style="font-size: 22px; border: 2px solid black;" class="text">
                             <b>08.30 A.M.</b>
                         </td>
 
@@ -129,11 +120,80 @@
                             Entry closing time
                             <br><b>Entry Closing Time:</b>
                         </td>
-                        <td style="font-size: 25px; border: 2px solid black;">
+                        <td style="font-size: 22px; border: 2px solid black;" class="text">
                             <b>09.30 A.M.</b>
                         </td>
-                    </tr>
+        </tr>
                 </table>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                <table id="tblContent">
+                    <tr>
+                      <td style="border-right-color: white;"><b>Applicant's Name:</b>
+                      <br>Applicant's Name</td>
+                      <td style="font-size: 19px; font-family: monospace;"><b>ABISHEK KUMAR SHAW</b></td>
+                      <td style="border-right-color:white;"><b>Sex:</b>
+                      <br>Sex</td>
+                      <td style="font-size: 19px; font-family: monospace;"><b>Male</b></td>
+                      <td rowspan="3" style="width: 120px;"><img src="my-passport-photo.jpg" style="width: 120px;"></td>
+                    </tr>
+                    <tr>
+                      <td style="border-right-color: white;"><b>Date of Birth:</b>
+                      <br>Date of Birth</td>
+                      <td style="font-size: 19px; font-family: monospace;" class="text"><b>17/08/1992</b></td>
+                      <td style="border-right-color: white;">Catagory
+                      <br><b>Catagory:</b></td>
+                      <td style="font-size: 19px; font-family: monospace;"><b>GEN</b></td>
+                    </tr>
+                    <tr>
+                        <td style="border-right-color: white;"><b>Address:</b>
+                        <br>Address</td>
+                        <td colspan="3" class="text">
+                           <b> A-178.3RD FLOOR 
+                           <br>LAJPAT NAGAR-1 
+                           <br>NEAR KANGRA SWEETS
+                           <br>SOUTH DELHI
+                           <br>Delhi - 110024</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-right-color: white; font-size: 15px;"><b>Exam vanue:</b>
+                        <br>Exam vanue</td>
+                        <td colspan="4" class="text">
+                            <b>PRO SKILLS CONSULTING PVT LTD PLOT NO-09. KAKA HALWAI INDUSTRIAL
+                                 ESTATE OPPOSITE TO CITY PRIDE THEATRE,PUNE SATARA ROAD, PUNE,
+                                 MAHARASHTRA 411 00</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; font-size: 14px;" colspan="2"><b>Paper 1</b>
+                        <br>Paper 1</td>
+                        <td style="text-align: center; font-size: 14px;"><b>Marks</b>
+                            <br>Marks</td>
+                        <td colspan="2" style="text-align: center; font-size: 14px;"><b>Duration of Exam</b>
+                        <br>Duration of Exam</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="text" style="width: 300px; border-right-color:white">
+                            <b>General Intelligence & Reasoning
+                            <br><br>General Awareness
+                            <br><br>Quantitative Aptitude
+                            <br><br>English Comprehension</b>
+                        </td>
+                        <td>General Intelligence & Reasoning
+                            <br><br>General Awareness
+                            <br><br>Quantitative Aptitude
+                            <br><br>English Comprehension</td>
+                        <td style="text-align: center;">
+                           <b>50<br><br>50<br><br>50<br><br>50</b>
+                        </td>
+                        <td style="text-align: center;" colspan="2" class="text"><br><b>10.00am to 11.15am</b></td>
+                    </tr>
+                  </table>
+            </td>
         </tr>
     </table>
 
